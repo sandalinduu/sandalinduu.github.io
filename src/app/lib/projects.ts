@@ -45,6 +45,18 @@ export const projects: Project[] = [
     image2: "/projectImage/port2.png",
     link: "https://example.com",
     github: "https://github.com/sandalinduu/my-portfolio.git",
-  }
+  },
+  {
+  id: 4,
+  title: "Ridmanjali Dancing Academy – UI Design",
+  shortDescription: "A UI design project for a Sri Lankan dance academy for students from preschool to advanced levels",
+  fullDescription: 
+    `"Ridmanjali Dancing Academy" UI design project showcases the dance programs for all ages, from preschool beginners to advanced students. Many students and parents previously asked about class schedules, costume payments, and performance images, which was hard to manage. This design solves those issues by providing a clear layout for class details, schedules, costumes, and a gallery, making information easy to find. The UI highlights traditional Sri Lankan dance styles including Udarata, Pahatharata, Sabaragamu, and Folk dance, along with the founder's achievements and the academy's vision. The design is clean, modern, and user-friendly, prepared to be developed into a fully functional website in the future.`,
+  technologies: ["Figma","UI/UX Design"],
+  image: "/projectImage/RidmanjaliAcademy1.png",
+  image2: "/projectImage/RidmanjaliAcademy2.png",
+  link: "https://example.com/ridmanjali-dancing-academy",
+  github: "https://github.com/sandalinduu/ridmanjali-dancing-academy",
+}
   
 ]
