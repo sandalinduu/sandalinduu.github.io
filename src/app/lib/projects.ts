@@ -56,7 +56,7 @@ export const projects: Project[] = [
   image: "/projectImage/RidmanjaliAcademy1.png",
   image2: "/projectImage/RidmanjaliAcademy2.png",
   link: "https://example.com/ridmanjali-dancing-academy",
-  github: "https://github.com/sandalinduu/ridmanjali-dancing-academy",
+  github: "",
 }
   
 ]
