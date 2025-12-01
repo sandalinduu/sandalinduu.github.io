@@ -8,6 +8,7 @@ export interface Project {
   link?: string
   github?: string
   image2?: string
+  figma?: string
 }
 
 export const projects: Project[] = [
@@ -56,7 +57,7 @@ export const projects: Project[] = [
   image: "/projectImage/RidmanjaliAcademy1.png",
   image2: "/projectImage/RidmanjaliAcademy2.png",
   link: "https://example.com/ridmanjali-dancing-academy",
-  github: "",
+  figma: "https://www.figma.com/design/dIROeDoDcLatBlpzuIMTCD/learn-ui-ux-dancing-academy?node-id=1-2&t=KFDO0bKMmUUKh75U-1",
 }
   
 ]
