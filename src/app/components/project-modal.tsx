@@ -72,6 +72,15 @@ export function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
                 GitHub
               </Button>
             )}
+            {project.figma && (
+              <Button
+                  onClick={() => window.open(project.figma, "_blank")}
+                  variant="outline"
+                  className="flex items-center gap-2 border-[#1A1A70] text-[#1A1A70] hover:bg-[#1A1A70] hover:text-white transition-colors duration-300"
+              >
+                  🎨 Figma
+              </Button>
+            )}
           </div>
         </div>
       </DialogContent>
